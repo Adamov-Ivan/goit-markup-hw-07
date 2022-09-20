@@ -1,0 +1,22 @@
+.hero {
+  background-color: var(--background-color-section1);
+  padding-top: 200px;
+  padding-bottom: 200px;
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url('../images/section1/bg.jpg');
+  background-size: 1600px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.title-big {
+  @include font(44px, 900, 60px);
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--primary-text-color-theme-light);
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  width: 696px;
+}
